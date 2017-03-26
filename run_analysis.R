@@ -1,4 +1,4 @@
-path <- file.path("/Users/priyansh/Desktop/Old Desktop/Coursera/Getting and Cleaning Data/UCI HAR Dataset")
+path <- file.path("Getting and Cleaning Data/UCI HAR Dataset")
 files<-list.files(path,recursive = TRUE)
 #print(files)
 dataActivityTest  <- read.table(file.path(path, "test" , "Y_test.txt" ),header = FALSE)
